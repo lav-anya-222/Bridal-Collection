@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridal Collection - Elegant Wedding Dresses</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #8B4513;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .hero-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .hero-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .hero-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .hero-card img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .hero-card h3 {
+            color: #8B4513;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .hero-card p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(45deg, #8B4513, #A0522D);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+        
+        .btn:hover {
+            background: linear-gradient(45deg, #A0522D, #8B4513);
+            transform: scale(1.05);
+        }
+        
+        .features {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .features h2 {
+            text-align: center;
+            color: #8B4513;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-item {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .feature-item h3 {
+            color: #8B4513;
+            margin-bottom: 10px;
+        }
+        
+        .feature-item p {
+            color: #666;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(139, 69, 19, 0.1);
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        
+        footer p {
+            color: #666;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .hero-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>👰 Bridal Collection</h1>
+            <p class="subtitle">Elegant Wedding Dresses & Designer Collections</p>
+            <p>Discover your perfect wedding dress from our exclusive collection</p>
+        </header>
+        
+        <section class="hero-section">
+            <div class="hero-card">
+                <img src="logo.jpeg" alt="Bridal Collection Logo">
+                <h3>Exclusive Designs</h3>
+                <p>Handcrafted wedding dresses by renowned designers</p>
+                <a href="website-files/pg1" class="btn">View Collection</a>
+            </div>
+            
+            <div class="hero-card">
+                <img src="design/c1.jpg" alt="Design Collection">
+                <h3>Design Showcase</h3>
+                <p>Explore our latest bridal fashion trends</p>
+                <a href="design/" class="btn">Browse Designs</a>
+            </div>
+            
+            <div class="hero-card">
+                <img src="cos1.jpg" alt="Bridal Consultation">
+                <h3>Book Consultation</h3>
+                <p>Schedule your personal bridal consultation</p>
+                <a href="booknow" class="btn">Book Now</a>
+            </div>
+        </section>
+        
+        <section class="features">
+            <h2>Why Choose Our Bridal Collection?</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>🎨 Custom Designs</h3>
+                    <p>Personalized wedding dresses tailored to your style</p>
+                </div>
+                <div class="feature-item">
+                    <h3>💎 Premium Quality</h3>
+                    <p>Finest fabrics and craftsmanship for your special day</p>
+                </div>
+                <div class="feature-item">
+                    <h3>👗 Expert Fitting</h3>
+                    <p>Professional fitting sessions to ensure perfect fit</p>
+                </div>
+                <div class="feature-item">
+                    <h3>🌟 Luxury Experience</h3>
+                    <p>Dedicated service from consultation to wedding day</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="hero-section">
+            <div class="hero-card">
+                <h3>About Our Collection</h3>
+                <p>Learn about our story and commitment to bridal excellence</p>
+                <a href="about" class="btn">Learn More</a>
+            </div>
+            
+            <div class="hero-card">
+                <h3>Client Testimonials</h3>
+                <p>See what our happy brides have to say about their experience</p>
+                <a href="clients" class="btn">Read Reviews</a>
+            </div>
+            
+            <div class="hero-card">
+                <h3>Contact Us</h3>
+                <p>Get in touch for consultations and appointments</p>
+                <a href="getintouch" class="btn">Contact</a>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Bridal Collection. All rights reserved.</p>
+            <p>Created with ❤️ by lav-anya-222</p>
+        </footer>
+    </div>
+</body>
+</html> 

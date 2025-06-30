@@ -16,15 +16,16 @@ A beautiful bridal collection website showcasing elegant wedding dresses and des
 
 ```
 Bridal Collection/
-├── index.html/          # Main website files
-├── design/              # Design showcase images and videos
-├── about                # About page
-├── booknow              # Booking page
-├── clients              # Clients page
-├── getintouch           # Contact page
-├── sign up              # Registration page
-├── *.jpg                # Various images and assets
-└── logo.jpeg            # Website logo
+├── index.html              # Main website landing page
+├── website-files/          # Additional website files
+├── design/                 # Design showcase images and videos
+├── about                   # About page
+├── booknow                 # Booking page
+├── clients                 # Clients page
+├── getintouch              # Contact page
+├── sign up                 # Registration page
+├── *.jpg                   # Various images and assets
+└── logo.jpeg               # Website logo
 ```
 
 ## Technologies Used
@@ -38,8 +39,13 @@ Bridal Collection/
 ## Getting Started
 
 1. Clone this repository
-2. Open `index.html/index.html` in your web browser
+2. Open `index.html` in your web browser
 3. Navigate through the different pages to explore the bridal collection
+
+## GitHub Pages
+
+This repository is configured for GitHub Pages. The website is automatically deployed and available at:
+[https://lav-anya-222.github.io/Bridal-Collection](https://lav-anya-222.github.io/Bridal-Collection)
 
 ## Author
 
