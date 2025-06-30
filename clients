@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Client Reviews – Lavanya Bridal Designs</title>
+
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+      font-family: 'Segoe UI', sans-serif;
+      border-top: 4px solid aqua;
+      border-bottom: 4px solid aqua;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    h1 {
+      text-align: center;
+      color: aqua;
+      margin-bottom: 40px;
+    }
+
+    .review-container {
+      max-width: 1000px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    .review-card {
+      background-color: #111;
+      border: 1px solid #444;
+      border-left: 5px solid aqua;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+    }
+
+    .review-name {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+
+    .review-rating {
+      color: aqua;
+      margin-bottom: 10px;
+    }
+
+    .stars {
+      color: gold;
+      margin-left: 5px;
+    }
+
+    .review-text {
+      color: #ccc;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Client Reviews</h1>
+
+  <div class="review-container">
+    <div class="review-card">
+      <div class="review-name">Lakshana <span class="stars">★★★★★</span></div>
+      <div class="review-rating">Hindu Bridal Lehenga – Ahmedabad</div>
+      <div class="review-text">Absolutely stunning work! The embroidery was flawless and the fittings were perfect.
+        Lavanya brought my dream to life!</div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-name">Monisha <span class="stars">★★★★☆</span></div>
+      <div class="review-rating">Christian White Gown – Chennai</div>
+      <div class="review-text">Loved the detailing and fabric quality. My church wedding gown made me feel like a
+        princess!</div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-name"> Ayishathul Hazeena <span class="stars">★★★★★</span></div>
+      <div class="review-rating">Muslim Nikah Dress – Hyderabad</div>
+      <div class="review-text">The dupatta work was breathtaking. Thank you Lavanya for making my Nikah extra special.
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-name">Devanya <span class="stars">★★★★☆</span></div>
+      <div class="review-rating">Custom Fusion Outfit – Mumbai</div>
+      <div class="review-text">I wanted something unique — half sari, half gown. Lavanya nailed it. So many compliments
+        on my engagement look!</div>
+    </div>
+  </div>
+
+</body>
+
+</html>

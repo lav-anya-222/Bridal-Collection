@@ -1,0 +1,148 @@
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      border-top: 4px solid aqua;
+      border-bottom: 4px solid aqua;
+       font-weight: bold;   
+  font-style: italic; 
+    }
+
+    .modal-content {
+      background-color: #000;
+      color: white;
+      border: 2px solid aqua;
+    }
+
+    .modal-header {
+      border-bottom: none;
+    }
+
+    .form-control {
+      background-color: #000;
+      color: white;
+      border: 1px solid white;
+    }
+
+    .form-control:focus {
+      border-color: aqua;
+      box-shadow: 0 0 6px aqua;
+      background-color: #000;
+      color: #fff;
+    }
+
+    label {
+      color: #aaa;
+    }
+
+    .btn-primary {
+      background-color: #000;
+      color: white;
+      border: 1px solid white;
+    }
+
+    .btn-primary:hover {
+      background-color: aqua;
+      color: #000;
+    }
+
+    .btn-outline-secondary,
+    .btn-outline-primary {
+      background-color: #000;
+      color: white;
+      border: 1px solid white;
+    }
+
+    .btn-outline-secondary:hover,
+    .btn-outline-primary:hover {
+      background-color: aqua;
+      color: #000;
+    }
+
+    .text-body-secondary {
+      color: #ccc !important;
+    }
+
+    h1,
+    h2 {
+      color: aqua;
+    }
+
+    hr {
+      border-color: aqua;
+    }
+
+    .modal-sheet {
+      background-color: #000 !important;
+    }
+
+   .btn-close-white {
+  background-color: white;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Aqua/Black Themed Modal -->
+  <div class="modal modal-sheet position-static d-block p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
+    <div class="modal-dialog">
+      <div class="modal-content rounded-4 shadow">
+        <div class="modal-header p-5 pb-4">
+          <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body p-5 pt-0">
+          <form>
+           <form>
+  <div class="form-floating mb-3">
+    <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="" />
+    <label for="floatingInput">Your Email</label> 
+  </div>
+
+  <div class="form-floating mb-3">
+    <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder=" " />
+    <label for="floatingPassword">Password</label>
+  </div>
+
+            <button class="w-100 mb-3 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+
+            <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+            <hr class="my-4">
+
+            <h2 class="fs-5 fw-bold mb-3">Or sign up with</h2>
+
+            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="button">
+              Sign up with Google
+            </button>
+
+            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="button">
+              Sign up with Facebook
+            </button>
+
+            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="button">
+              Sign up with GitHub
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

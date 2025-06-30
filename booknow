@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Now</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #000;
+            color: #fff;
+            border-top: 4px solid aqua;
+            border-bottom: 4px solid aqua;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 60px auto;
+            padding: 40px;
+            background-color: #111;
+            border: 2px solid aqua;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: aqua;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid white;
+            background-color: #000;
+            color: white;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: aqua;
+            box-shadow: 0 0 5px aqua;
+        }
+
+        button {
+            margin-top: 25px;
+            width: 100%;
+            padding: 12px;
+            background-color: #000;
+            color: white;
+            border: 1px solid white;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: aqua;
+            color: #000;
+        }
+
+        .note {
+            text-align: center;
+            font-size: 14px;
+            color: #aaa;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Book Your Appointment</h1>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Email" required />
+
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required />
+
+            <label for="weddingType">Wedding Type</label>
+            <select id="weddingType" name="weddingType" required>
+                <option value="">-- Wedding Type --</option>
+                <option value="hindu">Hindu Bride Wear</option>
+                <option value="christian">Christian Bride Gown</option>
+                <option value="muslim">Muslim Bridal Dress</option>
+                <option value="custom">Custom Fusion Style</option>
+            </select>
+
+            <label for="message">Additional Notes</label>
+            <textarea id="message" name="message" rows="4"
+                placeholder="Tell us more about your design preference..."></textarea>
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+
+        <p class="note">We’ll contact your email within 24 hours.</p>
+    </div>
+
+</body>
+
+</html>
