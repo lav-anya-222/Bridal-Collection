@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lavanya Bridal Designs</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      border-top: 4px solid aqua;
+      border-bottom: 4px solid aqua;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .logo-img {
+      width: 120px;
+      height: auto;
+    }
+
+    .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+
+    .nav-link:hover {
+      color: aqua !important;
+    }
+
+    header {
+      background-color: #000;
+    }
+
+    .video-carousel-box {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      border-radius: 0;
+      overflow: hidden;
+      box-shadow: none;
+    }
+
+    .video-carousel-box video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      display: block;
+    }
+
+    .section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: aqua;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      color: #ccc;
+      font-size: 1.1rem;
+      max-width: 900px;
+      margin: 0 auto 20px;
+    }
+
+    .btn-outline-light {
+      background-color: transparent;
+      border: 1px solid aqua;
+      color: aqua;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-style: normal;
+    }
+
+    .btn-outline-light:hover {
+      background-color: aqua;
+      color: #000;
+    }
+
+    .design-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 0;
+      justify-items: center;
+    }
+
+    .design-grid img {
+      width: 100%;
+      max-width: 250px;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px wheat;
+      transition: transform 0.3s ease;
+    }
+
+    .design-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .review-container {
+      max-width: 1000px;
+      margin: 40px auto 0;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    .review-card {
+      background-color: #111;
+      border: 1px solid #444;
+      border-left: 5px solid aqua;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+      text-align: left;
+    }
+
+    .review-name {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: aqua;
+      margin-bottom: 5px;
+    }
+
+    .stars {
+      color: gold;
+      margin-left: 5px;
+    }
+
+    .review-rating {
+      color: #ccc;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+
+    .review-text {
+      color: #ddd;
+      font-style: italic;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+      .video-carousel-box video {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="p-3 sticky-top">
+    <div class="container d-flex flex-wrap align-items-center justify-content-between">
+      <a href="#" class="d-flex align-items-center text-white text-decoration-none">
+        <img src="../logo.jpeg" alt="Lavanya Logo" class="me-2 logo-img" />
+      </a>
+      <ul class="nav">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#designs" class="nav-link">Designs</a></li>
+        <li><a href="#clients" class="nav-link">Clients</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#getintouch" class="nav-link">Contact</a></li>
+        <li><a href="../sign up" class="nav-link">Sign Up</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Video Box -->
+  <section id="home" class="video-carousel-box">
+    <video autoplay muted loop>
+      <source src="../design/vdoos.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Designs -->
+  <section id="designs" class="section">
+    <h2>Our Bridal Designs</h2>
+    <p>Explore our exclusive collections: Hindu Bridal Lehengas, Christian White Gowns, Muslim Nikah Dresses, and Custom Fusion Styles crafted with love and tradition.</p>
+
+    <div class="design-grid">
+      <img src="./mod1.jpg" alt="Design 1">
+      <img src="./mod2.jpg" alt="Design 2">
+      <img src="./mod3.jpg" alt="Design 3">
+      <img src="./mod4.jpg" alt="Design 4">
+    </div>
+
+    <a href="../design/desiginn" class="btn btn-outline-light mt-4">View Full Design Collection</a>
+  </section>
+
+  <!-- Clients -->
+  <section id="clients" class="section">
+    <h2>Client Reviews</h2>
+    <p>Our brides say it best! From perfect fittings to heartfelt experiences, Lavanya's designs bring their dreams to life.</p>
+
+    <div class="review-container">
+      <div class="review-card">
+        <div class="review-name">DEEJA <span class="stars">★★★★★</span></div>
+        <div class="review-rating">Christian Bridal – US</div>
+        <div class="review-text">
+          From the very first consultation to the final trial, the entire journey with Lavanya was magical. My Hindu bridal lehenga was a perfect blend of tradition and elegance. The fabric quality, color coordination, and personalized touches made me feel truly royal on my wedding day.
+        </div>
+      </div>
+    </div>
+
+    <a href="../clients" class="btn btn-outline-light mt-4">Read More Reviews</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Our Bridal Designs is a boutique label dedicated to creating unforgettable bridal moments. We specialize in crafting custom bridal lehengas, white gowns, Nikah dresses, and fusion outfits that celebrate culture and individuality. With a deep love for traditional craftsmanship and a flair for modern elegance, we bring each bride's vision to life — one stitch at a time.</p>
+    <a href="../about" class="btn btn-outline-light mt-4">More About Us</a>
+  </section>
+
+  <!-- Get in Touch -->
+  <section id="getintouch" class="section">
+    <h2>Get in Touch</h2>
+    <p>We'd love to hear from you! Whether it's a question, feedback, or a dream dress idea, reach out below.</p>
+    <a href="../getintouch" class="btn btn-outline-light mt-4">Go to Contact Page</a>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
