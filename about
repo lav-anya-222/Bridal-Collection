@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me- Bridal Designer</title>
+
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+      font-family: 'Segoe UI', sans-serif;
+      border-top: 4px solid aqua;
+      border-bottom: 4px solid aqua;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    h1.main-heading {
+      text-align: center;
+      color: aqua;
+      font-size: 3rem;
+      margin-top: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .text-section {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .text-section h2 {
+      color: aqua;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .text-section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #ccc;
+    }
+
+    .image-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .image-section img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 2px solid aqua;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .image-section img {
+        margin: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Centered Top Heading -->
+  <h1 class="main-heading">About US</h1>
+
+  <div class="container">
+    <!-- Left: About Me Text -->
+    <div class="text-section">
+      <h2>HELLO! I'M LAVANYA</h2>
+    <p>
+  Bridal Designs is more than just a label – it's a vision where tradition meets timeless elegance.
+  With over 5 years of dedication, we specialize in crafting exquisite bridal couture across Hindu, Christian, and Muslim cultures.
+  <br><br>
+  Each outfit is a personal story – woven with emotion, respect for heritage, and graceful artistry.
+  From fabric selection to the final fittings, every detail is handled with care and creativity.
+  <br><br>
+  Whether it's a royal red lehenga, an angelic white gown, or a serene Nikah ensemble — our focus is to make every bride feel stunning and unique.
+  <br><br>
+  Our journey began with a single sketch, a passion for design, and a dream to celebrate every bride’s individuality.
+  Since then, Lavanya Bridal Designs has grown into a trusted name, loved for its commitment to quality and culture.
+  <br><br>
+  We believe a bridal outfit should do more than just look beautiful — it should capture the essence of the bride.
+  Your big day deserves not just a dress, but a memory stitched into every thread.
+  <br><br>
+  Our design studio brings together traditional craftsmanship with modern elegance.
+  Every embroidery, stone, and sequin is chosen with purpose to create showstopping results.
+  <br><br>
+  We’re honored to be a part of so many brides’ journeys.
+  The joy in their eyes, the pride in their families — that’s what inspires us to create.
+  <br><br>
+  Let Lavanya Bridal Designs be a part of your story.
+  Together, we’ll craft a bridal masterpiece that’s as unique and unforgettable as you are.
+</p>
+
+    </div>
+
+    <!-- Right: Images -->
+    <div class="image-section">
+      <img src="../web/design/desiginer.jpg" alt="Designer at Work">
+      <img src="../web/design/showcase.jpg" alt="Bridal Dress Showcase">
+    </div>
+  </div>
+
+</body>
+
+</html>
